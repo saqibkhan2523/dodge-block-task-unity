@@ -15,7 +15,7 @@ public class MoveBackward : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //transform.Translate(Vector3.back * Time.deltaTime * brickSpeedScript.brickSpeed);
+        
     }
 
     private void OnCollisionEnter(Collision collision)

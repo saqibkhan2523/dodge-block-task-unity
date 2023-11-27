@@ -272,10 +272,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73a73e241771d254bba061f3e6fa4d17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  powerUpPrefabs:
+  - {fileID: 3881390490923964021, guid: a5fd3a78464bab342bb0684b98d2a1d3, type: 3}
+  - {fileID: 6073490719404713270, guid: 1340fa6a516cb4749b1f33e588233ca3, type: 3}
   brickParentPrefab: {fileID: 2558106114127960680, guid: e511f7a57780fd145b3a457ddbe80e2f, type: 3}
   startDelay: 2
   spawnInterval: 5
+  startDelayPU: 3
+  spawnIntervalPU: 7
+  powerUpXRange: 9
 --- !u!4 &253926177
 Transform:
   m_ObjectHideFlags: 0
